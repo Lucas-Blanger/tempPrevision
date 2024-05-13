@@ -8,32 +8,34 @@
     <title>Verduras Blanger</title>
     <link rel="icon" href="assets\logo.png" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
+    <script>
+        function mostrarHora() {
+            const data = new Date();
+            const hora = data.getHours();
+            const minutos = data.getMinutes();
+            const segundos = data.getSeconds();
+            document.getElementById('hora').textContent = hora + ':' + minutos + ':' + segundos;
+        }
+        setInterval(mostrarHora, 1000); // Atualiza a hora a cada segundo
+    </script>
 </head>
 
 <body>
+    </div>
     <header>
-        <h1>Meu Site</h1>
-        <nav>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Sobre</a></li>
-                <li><a href="#">Contato</a></li>
-            </ul>
-        </nav>
+        <h1>Verduras Blanger</h1>
     </header>
     <main>
+        <h1><span id="hora"></span></h1>
         <section>
-            <h2>Seção 1</h2>
-            <p>Conteúdo da seção 1...</p>
+            <div id="cont_f6d8d432ac41788dcb5078fd027e2e51">
+                <script type="text/javascript" async src="https://www.tempo.com/wid_loader/f6d8d432ac41788dcb5078fd027e2e51"></script>
         </section>
         <section>
-            <h2>Seção 2</h2>
-            <p>Conteúdo da seção 2...</p>
+            <h1>Preços: </h1>
+            <iframe src="https://www.agron.com.br/widget/cotacao.php" width="250px;" height="280px;" scrolling="no" frameborder="0"></iframe>
         </section>
     </main>
-    <footer>
-        <p>&copy; 2024 Meu Site. Todos os direitos reservados.</p>
-    </footer>
     <script src="script.js"></script>
 </body>
 
