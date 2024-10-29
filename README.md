@@ -1,63 +1,51 @@
-# Site de Informações Meteorológicas para Agricultores de Campinas do Sul
+# Weather Information Website for Farmers in Campinas do Sul
 
-# Descrição
+## Description
 
-Este projeto é um site de informações meteorológicas desenvolvido para agricultores de Campinas do Sul, com o objetivo de fornecer dados precisos sobre as condições climáticas da região. O site foi construído utilizando HTML e CSS, com um design simples e responsivo, permitindo fácil acesso às informações em diversos dispositivos, como smartphones, tablets e computadores.
+This project is a weather information website developed for farmers in Campinas do Sul, aimed at providing accurate data on local weather conditions. The website is built using HTML and CSS, with a simple and responsive design that allows easy access to information on various devices such as smartphones, tablets, and computers.
 
-O site apresenta dados como previsão do tempo, temperatura, umidade, e outros parâmetros importantes para auxiliar os agricultores a tomarem decisões informadas no manejo de suas plantações.
+The site displays data such as weather forecasts, temperature, humidity, and other important parameters to help farmers make informed decisions in managing their crops.
 
-# Funcionalidades
+## Features
 
-  Previsão do Tempo: Exibe a previsão do tempo atual e dos próximos dias.
-  
-  Temperatura Atual: Mostra a temperatura em tempo real.
-  
-  Níveis de Umidade: Fornece informações sobre a umidade do ar.
-  
-  Vento e Velocidade: Informações sobre a direção e velocidade do vento, úteis para o planejamento de atividades agrícolas.
-  
-  Design Responsivo: O site se adapta a diferentes resoluções de tela, garantindo acessibilidade tanto em dispositivos móveis quanto em desktops.
-  
-  Interface Simples e Limpa: Foco na facilidade de uso, com uma navegação clara e objetiva.
+- **Weather Forecast**: Displays the current weather and forecast for the upcoming days.
+- **Current Temperature**: Shows real-time temperature.
+- **Humidity Levels**: Provides information on air humidity.
+- **Wind Direction and Speed**: Displays wind direction and speed, useful for agricultural planning.
+- **Responsive Design**: The site adapts to different screen resolutions, ensuring accessibility on mobile devices and desktops.
+- **Simple and Clean Interface**: Focus on ease of use, with clear and straightforward navigation.
 
-# Estrutura do Projeto
+## Project Structure
 
-  index.html: Página principal contendo todas as informações meteorológicas.
-  
-  style.css: Arquivo de estilo responsável pelo layout e design do site.
-  
-  imagens/: Pasta com ícones de clima (sol, chuva, vento, etc.) e imagens ilustrativas.
-  
-  README.md: Este arquivo de documentação.
+- **index.html**: Main page containing all the weather information.
+- **style.css**: Stylesheet responsible for the layout and design of the website.
+- **images/**: Folder containing weather icons (sun, rain, wind, etc.) and illustrative images.
+- **README.md**: This documentation file.
 
-# Como Utilizar
+## How to Use
 
-  Clone o repositório ou baixe os arquivos do projeto.
-  
-  Abra o arquivo index.html em qualquer navegador moderno.
-  
-  O site pode ser hospedado localmente ou em um servidor de hospedagem para disponibilizar as informações para o público-alvo.
+1. Clone the repository or download the project files.
+2. Open the index.html file in any modern browser.
+3. The website can be hosted locally or on a hosting server to make the information available to the target audience.
 
-# Tecnologias Utilizadas
+## Technologies Used
 
-  HTML5: Estrutura do site.
-  
-  CSS3: Estilização e layout responsivo.
-  
-  APIs Meteorológicas: Para fornecer dados de previsão do tempo em tempo real.
+- **HTML5**: Structure of the website.
+- **CSS3**: Styling and responsive layout.
+- **Weather APIs**: To provide real-time weather forecast data.
 
-# Como Integrar uma API Meteorológica
+## How to Integrate a Weather API
 
-  Registre-se em um provedor de API como OpenWeatherMap.
-  Obtenha sua chave de API.
-  No arquivo index.html, adicione um script JavaScript que faça chamadas à API para obter os dados meteorológicos.
-  Exiba as informações no site em tempo real, substituindo os dados estáticos por dinâmicos.
+1. Register with an API provider such as OpenWeatherMap.
+2. Obtain your API key.
+3. In the index.html file, add a JavaScript script to make calls to the API to fetch weather data.
+4. Display the information on the website in real-time, replacing the static data with dynamic data.
 
-# Autor
+## Author
 
-    Nome: Lucas Blanger
-    Contato: blangerlucas@gmail.com
+- **Name**: Lucas Blanger
+- **Contact**: blangerlucas@gmail.com
 
-# Licença
+## License
 
-Este projeto está licenciado sob a Licença MIT - veja o arquivo LICENSE para mais detalhes.
+This project is licensed under the MIT License - see the LICENSE file for more details.
