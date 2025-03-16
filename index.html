@@ -6,43 +6,45 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Verduras Blanger</title>
-    <link rel="icon" href="assets\logo.png" type="image/x-icon">
+    <link rel="icon" href="assets/logo.png" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
-    <script>
-        function mostrarHora() {
-            const data = new Date();
-            const hora = data.getHours();
-            const minutos = data.getMinutes();
-            const segundos = data.getSeconds();
-            document.getElementById('hora').textContent = hora + ':' + minutos + ':' + segundos;
-        }
-        setInterval(mostrarHora, 1000); // Atualiza a hora a cada segundo
-    </script>
+
 </head>
 
 <body>
-    </div>
+    <nav class="navbar">
+        <ul>
+            <li><a href="#previsao">Previsão</a></li>
+            <li><a href="#nuvens">Nuvens</a></li>
+            <li><a href="#precos">Preços</a></li>
+        </ul>
+    </nav>
+    
     <header>
         <h1>Verduras Blanger</h1>
+        <p id="hora"></p>
     </header>
+    
     <main>
-        <h1>Horas: <span id="hora"></span></h1>
-        <section>
-            <h1>Previsão para a semana: </h1>
+        <section id="previsao">
+            <h1>Previsão para a semana:</h1>
             <div id="cont_f6d8d432ac41788dcb5078fd027e2e51">
-                <script type="text/javascript" async src="https://www.tempo.com/wid_loader/f6d8d432ac41788dcb5078fd027e2e51" width="250px;" height="280px;"></script>
+                <script type="text/javascript" async src="https://www.tempo.com/wid_loader/f6d8d432ac41788dcb5078fd027e2e51"></script>
+            </div>
         </section>
-        <section>
-            <h1>Nuvens: </h1>
+        
+        <section id="nuvens">
+            <h1>Nuvens:</h1>
             <iframe src="https://www.rainviewer.com/map.html?loc=-27.7249,-52.622,9.581173514331244&oFa=0&oC=true&oU=0&oCS=1&oF=0&oAP=0&c=3&o=83&lm=1&layer=radar&sm=1&sn=1&hu=false" width="100%" frameborder="0" style="border:0;height:50vh;" allowfullscreen></iframe>
         </section>
-        <section>
-            <h1>Preços: </h1>
-            <iframe src="https://www.agron.com.br/widget/cotacao.php" width="250px;" height="280px;" scrolling="no" frameborder="0"></iframe>
+        
+        <section id="precos">
+            <h1>Preços:</h1>
+            <iframe src="https://www.agron.com.br/widget/cotacao.php" width="250px" height="280px" scrolling="no" frameborder="0"></iframe>
         </section>
-
     </main>
+    
     <script src="script.js"></script>
 </body>
 
-</html>
+</html

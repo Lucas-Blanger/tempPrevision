@@ -1,35 +1,90 @@
 body {
-    background-color: #1a1a1a;
-    color: #ffffff;
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
+  background-color: #1a1a1a;
+  color: #ffffff;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  background-color: #222222;
+  padding: 10px;
+  text-align: center;
+}
+
+.navbar ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.navbar ul li {
+  display: inline;
+}
+
+.navbar ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 8px 12px;
+  transition: 0.3s;
+}
+
+.navbar ul li a:hover {
+  background-color: #181818;
+  border-radius: 5px;
 }
 
 header {
-    background-color: #333333;
-    color: #ffffff;
-    padding: 10px;
-    text-align: center;
+  background-color: #333;
+  color: #ffffff;
+  padding: 10px;
+  text-align: center;
 }
 
 main {
-    padding: 20px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 section {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  width: 100%;
+  max-width: 800px;
 }
 
 a {
-    color: #ffffff;
-    text-decoration: underline;
+  color: #ffffff;
+  text-decoration: underline;
 }
 
 h1 {
-    text-align: center;
+  text-align: center;
 }
 
-section {
-    text-align: center;
+@media (max-width: 600px) {
+  .navbar ul {
+    flex-direction: column;
+  }
+}
+#previsao-container {
+  width: 100%;
+  max-width: 400px; /* Ajuste conforme necessário */
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+
+@media (max-width: 600px) {
+  #previsao-container {
+    max-width: 100%;
+    transform: scale(0.9); /* Reduz um pouco o tamanho para encaixar melhor */
+  }
 }
